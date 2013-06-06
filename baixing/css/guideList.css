@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*css reset*/
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form{
+	margin:0;
+	font: 14px/1.5 'Arial',sans-serif;
+	} 
+ol,li,ul{
+	margin:0;
+	 padding:0;
+	 list-style:none;
+	 }
+	 
+/*common use*/
+ul li{
+	padding-left:5px;
+	}
+a{
+	text-decoration:none;
+	color:#000;
+	}
+a:hover{
+	text-decoration:underline;
+	}
+/*guidList*/
+#red{
+	color:#F00;
+	}
+#guideList{
+	width:1000px;
+	margin:0 auto;
+	}
+.listContentTitle{
+	background-color:#f7f7f7;
+	width:180px;
+	height:29px;
+	border-bottom:2px solid #82c727;
+	padding:3px 5px;
+	line-height:29px;
+	}
+.icon{
+	background:url(../image/icons.png) no-repeat 0 0;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	vertical-align:text-bottom;
+	overflow:hidden;
+	}
+.iconCar{
+	background-position:-41px 1px;
+	}
+.iconAnimal{
+	background-position:2px -23px;
+	}
+.iconLove{
+	background-position:-172px 2px;
+		}
+.iconHouse{
+	background-position:-84px 1px;
+	}
+.iconHire{
+	background-position:-128px 2px;
+	}
+.iconservice{
+	background-position:-85px -23px; 
+	}	
+.iconPart{
+	background-position:-128px -23px;
+	}
+.iconEducation{
+	background-position:-215px 1px;
+	}
+.listContent{
+	width:180px;
+	margin-left:20px;
+	float:left;	
+	}
+.titleH{
+	display:inline;
+	font-size:14px;
+	}
+.titleLink:link{
+	color:green;
+	}	
+.titleLink:hover{
+	color:#888;
+	}      
+.listSort h4 {
+	padding:5px 0;
+	}
+ul li{
+	border-bottom: thin dotted #888;
+	padding-bottom:5px;
+	}
+.little{
+		font-size:12px;
+		padding-bottom:5px;
+	}
+.little:link{
+	color:#888;
+	}
+.noBorder{
+	border:none;
+	}
+.towList{
+	display:inline-block;
+	width:80px;
+	height:31px;
+	}
+#long{
+	width:120px;
+	}
